@@ -1,0 +1,35 @@
+# Image Processing Tools - Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core image processing
+Pillow>=10.0.0
+
+# EXIF metadata
+exifread>=3.0.0
+
+# Duplicate detection (perceptual hashing)
+imagehash>=4.3.1
+
+# OCR (Optical Character Recognition)
+pytesseract>=0.3.10
+
+# PDF to image conversion (for PDF OCR support)
+pdf2image>=1.16.0
+# Note: pdf2image requires poppler:
+#   Windows: https://github.com/oschwartz10612/poppler-windows/releases
+#   Linux:   apt install poppler-utils
+#   macOS:   brew install poppler
+
+# Background removal (AI-powered)
+rembg>=2.0.50
+
+# Desktop screenshots
+mss>=9.0.0
+
+# Website screenshots
+playwright>=1.40.0
+
+# External dependency for OCR:
+# Tesseract OCR must be installed separately
+# Download: https://github.com/tesseract-ocr/tesseract
+# On Windows: Add Tesseract to PATH or set pytesseract.pytesseract.tesseract_cmd
