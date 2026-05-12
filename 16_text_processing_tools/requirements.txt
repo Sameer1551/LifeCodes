@@ -1,0 +1,24 @@
+# Text Processing Tools - Dependencies
+# Install with: pip install -r requirements.txt
+
+# Text Summarizer
+sumy>=0.11.0
+
+# Keyword Extractor
+yake>=0.4.8
+
+# Language Detection
+langdetect>=1.0.9
+
+# NLP utilities (Stopword Remover, Sentence Splitter)
+nltk>=3.8.0
+
+# Machine Learning (Similarity Checker, Document Classifier)
+scikit-learn>=1.3.0
+
+# Encoding Detection
+chardet>=5.2.0
+
+# Data handling (Document Classifier)
+pandas>=2.0.0
+joblib>=1.3.0
