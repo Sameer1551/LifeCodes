@@ -1,0 +1,24 @@
+# Networking & Internet Tools - Dependencies
+# Install with: pip install -r requirements.txt
+
+# HTTP requests
+requests>=2.31.0
+
+# Async HTTP (for batch operations)
+aiohttp>=3.9.0
+
+# DNS lookups
+dnspython>=2.4.0
+
+# HTML parsing (URL metadata)
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Speed testing
+speedtest-cli>=2.1.0
+
+# Progress bars
+tqdm>=4.66.0
+
+# URL handling
+urllib3>=2.0.0
