@@ -1,0 +1,8 @@
+{
+    "age":    { "type": "cast",   "to": "int" },
+    "price":  { "type": "apply",  "func": "lambda x: round(float(x), 2)" },
+    "date":   { "type": "date",   "format": "%Y-%m-%d" },
+    "email":  { "type": "lower" },
+    "name":   { "type": "strip" },
+    "category": { "type": "replace", "pattern": "\\s+", "repl": "_" }
+}
